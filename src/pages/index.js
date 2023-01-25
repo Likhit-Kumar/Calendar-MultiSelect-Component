@@ -22,8 +22,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <Calendar />
-      <MultiSelect selectedTags={selectedTags}  tags={['1918123']}/>
+      {/* <Calendar /> */}
+      <MultiSelect selectedTags={selectedTags}  tags={['1918123']} fieldName={'Register Number'}/>
     </>
   )
 }
